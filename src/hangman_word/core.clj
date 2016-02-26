@@ -1,4 +1,5 @@
 (ns hangman-word.core
+  (:require [clojure.set])
   (:gen-class))
 
 (defn letters-in-clue
