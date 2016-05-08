@@ -16,8 +16,8 @@
   (let [bar-pattern (str "("
                          (clojure.string/join "|" (clojure.set/difference alphabet (clojure.set/union (letters-in-clue clue) chosen-letters)))
                          ")")
-        mapper (fn [letter] (if (= letter \_) bar-pattern letter))]
-    (re-pattern (clojure.string/join "" (map mapper clue)))))
+        options-for-bar (fn [letter] (if (= letter \_) bar-pattern letter))]
+    (re-pattern (clojure.string/join "" (map options-for-bar clue)))))
 
 (defn -main
   "I don't do a whole lot ... yet."
