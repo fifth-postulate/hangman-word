@@ -40,6 +40,6 @@ them both, they should be equal in size.
 
 You can see this is the case by playing a different game. Instead of chosing a
 target word at the beginning, that player can keep changing her mind, as long as
-it is consistend with the history of the game. 
+it is consistent with the history of the game. 
 
 [hangman]: https://en.wikipedia.org/wiki/Hangman_%28game%29
